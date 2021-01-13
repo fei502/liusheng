@@ -1,0 +1,51 @@
+/* pages/create_new_will/will_form/photo_will/photo_will.wxss */
+
+page{
+  background-color: #7B8DA3
+}
+
+.butt{
+  width: 20vh;
+  background-color: #FDFAF5;
+  margin-top: 10vh;
+  margin-left: 18vh;
+  color: #7B8DA3;
+}
+
+#roundSquareCard {
+  border-radius: 25px 25px 0px 0px;
+  background: #FDFAF5;
+  height: 86vh; 
+  padding: 3vh;
+}
+
+#Photocard{
+  border-radius: 25px;
+  background-color: #7B8DA3;
+  padding: 3vh;
+  margin-top: 10vh;
+}
+
+#title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FDFAF5;
+  padding-top: 3vh;
+
+}
+
+#cont{
+  color: #FDFAF5;
+}
+
+#buttonLn{
+  padding: 2vh;
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+

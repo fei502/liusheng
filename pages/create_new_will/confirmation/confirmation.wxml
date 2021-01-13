@@ -1,0 +1,22 @@
+<!--pages/create_new_will/confirmation/confirmation.wxml-->
+
+<!--body-->
+<view class='topSquare'> 起草新的遗嘱 </view>
+<view id="roundSquareCard"> 
+  <text class='mainText'>请回答几个简单的问题，我们将帮助您选择合适的遗嘱类型。</text>
+  <view style='height:20vh'></view>
+  <view animation="{{animationData}}" class="QAcard" style='height:40vh'>
+    <view class='titleTextIvt' style='text-align:center'>{{title}}</view>
+    <view class='mainTextIvt' style='padding-bottom: 7vh'>{{content}}</view>
+    <button class='confBut' bindtap='createWill'>继续</button>
+  </view>
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>

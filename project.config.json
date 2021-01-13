@@ -1,114 +1,44 @@
 {
-  "description": "Project configuration file",
-  "packOptions": {
-    "ignore": []
-  },
-  "setting": {
-    "urlCheck": true,
-    "es6": true,
-    "postcss": true,
-    "minified": true,
-    "newFeature": true,
-    "coverView": true,
-    "autoAudits": false,
-    "scopeDataCheck": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "bundle": false,
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "useApiHook": true,
-    "useApiHostProcess": false
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.0.4",
-  "appid": "wx479bea571a1ad5ce",
-  "projectname": "miniprogram-test-1",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
-  "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "currentL": -1,
-      "list": []
-    },
-    "miniprogram": {
-      "list": [
-        {
-          "id": 1,
-          "name": "test_confirmation",
-          "pathName": "pages/create_new_will/confirmation/confirmation",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": 1,
-          "name": "text_all_choices",
-          "pathName": "pages/create_new_will/all_choices/all_choices",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": 2,
-          "name": "test_photo_will",
-          "pathName": "pages/create_new_will/will_forms/photo_will/photo_will",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "test_QA",
-          "pathName": "pages/create_new_will/QA/QA",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "test_text_will",
-          "pathName": "pages/create_new_will/will_forms/text_will/text_will",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": 5,
-          "name": "test_will_form",
-          "pathName": "pages/create_new_will/will_form/will_form",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "test_guide",
-          "pathName": "pages/guide/guide",
-          "query": "",
-          "scene": null
-        }
-      ]
-    }
-  }
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx19641280bc91bce4",
+	"projectname": "liusheng",
+	"libVersion": "2.14.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide"
+				}
+			]
+		}
+	}
 }

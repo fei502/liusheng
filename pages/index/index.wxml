@@ -1,0 +1,73 @@
+<!--index.wxml-->
+
+<!--cover top page: 37 vh totoal-->
+<view>
+  <view style='height:12vh'> </view>
+  <view id='coverTitle'>留声</view>
+  <view id='coverSlogan'>没有人知道意外何时发生</view>
+  <view id='coverSlogan'>不如从今天开始减少遗憾</view>
+  <view style='height:7vh'> </view>
+</view>
+
+<!--top round-square part of the card-->
+<view id="coverSquareCard"></view>
+
+<!--main card panel-->
+<view class="page__bd" id="panel">
+    <view class="weui-panel weui-panel_access" style='background-color: #7B8DA3 ! important; color:#FDFAF5'>
+        <view class="weui-panel__bd">
+            <!--First Item of List-->
+            <navigator url="../create_new_will/QA_one/QA_one" class="weui-media-box weui-media-box_appmsg" style='background-color: #7B8DA3 ! important;'>
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/new_white.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title" >起草新的遗嘱</view>
+                    <view class="weui-media-box__desc">部分不具有法律效力，请阅读指导手册</view>
+                </view>
+            </navigator>
+
+            <!--Second Item of List-->
+            <navigator url="../modify_will/modify_will" class="weui-media-box weui-media-box_appmsg">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/edit_white.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title">管理已创建的遗嘱</view>
+                    <view class="weui-media-box__desc">建议您每年进行一次修改和检查</view>
+                </view>
+            </navigator>
+
+            <!--Third Item of List -->
+            <navigator url="../guide/guide" class="weui-media-box weui-media-box_appmsg">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/guide_white.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title">指导手册</view>
+                    <view class="weui-media-box__desc">阅读指导可以帮您写出执行力更好的遗嘱</view>
+                </view>
+            </navigator>
+
+            <!--Fourth Item of List-->
+            <navigator url="../notarization/notarization" class="weui-media-box weui-media-box_appmsg">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/cetificate_white.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title">公证遗嘱</view>
+                    <view class="weui-media-box__desc">将跳转至中国公证网继续</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom" style='background-color:#7B8DA3; color:#fff ! important'>
+    <view class="weui-footer__links" style='color: white ! important'>
+        <navigator url="../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>

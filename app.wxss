@@ -1,0 +1,51 @@
+/**app.wxss**/
+@import '/src/weui.wxss';
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 200rpx 0; */
+  box-sizing: border-box;
+} 
+
+.mainText{
+  color: #7B8DA3;
+  text-align: justify;
+  font-size: 13pt;
+}
+
+.mainTextIvt{
+  color: #FDFAF5;
+  text-align: justify;
+  font-size: 13pt;
+}
+
+.titleText{
+  color: #7B8DA3;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 16pt;
+  padding-bottom: 2vh;
+}
+
+.titleTextIvt{
+  color: #FDFAF5;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 16pt;
+  padding-bottom: 2vh;
+}
+
+.topSquare{
+  height: 8vh;
+
+  color: #FDFAF5;
+  text-size-adjust: auto;
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+}

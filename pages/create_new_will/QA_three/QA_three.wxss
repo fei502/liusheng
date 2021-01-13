@@ -1,0 +1,40 @@
+/* pages/create_new_will/QA_three/QA_three.wxss */
+/* pages/create_new_will/QA/QA.wxss */
+
+page{
+  background-color: #7B8DA3
+}
+
+.butt{
+  width: 30vh;
+  background-color: #7B8DA3;
+  color: #FDFAF5;
+}
+
+#roundSquareCard {
+  border-radius: 25px 25px 0px 0px;
+  background: #FDFAF5;
+  height: 106vh; 
+  padding: 3vh;
+}
+
+#QAcard{
+  border-radius: 25px;
+  background-color: #FDFAF5;
+  padding: 3vh;
+  padding-top: 15vh;
+}
+
+#buttonLn{
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#yesButt{
+  margin-right: 1.5vh;
+}
+
+
+

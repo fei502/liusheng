@@ -1,0 +1,82 @@
+/* pages/create_new_will/will_forms/record_will/record_will.wxss */
+/* pages/create_new_will/will_forms/legal_record_will/legal_record_will.wxss */
+
+/* pages/create_new_will/will_forms/text_will/text_will.wxss */
+page{
+  background-color: #7B8DA3
+}
+
+#roundSquareCard {
+  border-radius: 25px 25px 0px 0px;
+  background: #FDFAF5;
+  padding: 3vh;
+}
+
+#inLnButt{
+  background-color: #fff;
+  border: 0;
+  padding:0;
+  color: #7B8DA3;
+}
+
+.inputCell{
+  margin: 5px;
+  padding: 5px; 
+  width: 70%;
+  margin-right:0;
+  font-size: 13pt;
+  box-sizing: border-box;
+  border: 2px solid #7B8DA3;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #28334d;
+}
+
+.inputBlock{
+  display: flex;
+  align-items: center;
+}
+
+#longText{
+  margin: 5px;
+  padding: 5px; 
+  font-size: 13pt;
+  border: 2px solid #7B8DA3;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #28334d;
+  width: unset;
+}
+
+#longlongText{
+  margin: 5px;
+  padding: 5px; 
+  font-size: 13pt;
+  border: 2px solid #7B8DA3;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #28334d;
+  width: unset;
+  height: 44vh;
+}
+
+.submitbutt{
+  width: 15vh;
+  background-color: #7B8DA3;
+  color: #FDFAF5;
+  margin-right: 3vh;
+}
+
+#buttonLn{
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.butt{
+  width: 15vh;
+  background-color: #7B8DA3;
+  color: #FDFAF5;
+  margin-right: 3vh;
+}

@@ -1,0 +1,5 @@
+<!--pages/notarization/notarization.wxml-->
+<cover-view class='container'>
+    <cover-image src="/src/images/subpage_top.jpg"/>
+</cover-view>
+<text>pages/notarization/notarization.wxml</text>

@@ -1,0 +1,69 @@
+<!--pages/modify_will/modify_will.wxml-->
+<!--pages/create_new_will/QA/QA.wxml-->
+
+<view class='topSquare'> 管理已创建的遗嘱 </view>
+<view id="roundSquareCard"> 
+  <text class='mainText'>在留声，您的修改都将被视作一份新的遗嘱，代替原遗嘱留存。\n遗嘱的类型无法修改，您可以将其删除，而后重新起草新的遗嘱。\n我们建议您每年检查一次已订立的遗嘱，如有需要，请及时撤销或变更。</text>
+<view id="coverSquareCard"></view>
+
+<!--main card panel-->
+<view class="page__bd" id="panel">
+    <view class="weui-panel weui-panel_access" style='color:#7B8DA3'>
+        <view class="weui-panel__bd" id='small_panel'>
+            <!--First Item of List-->
+            <navigator url="../create_new_will/will_forms/text_will/text_will" class="weui-media-box weui-media-box_appmsg">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/wordwill.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title" >文字遗嘱</view>
+                    <view class="weui-media-box__desc">创建时间： 2019xx月xx日</view>
+                </view>
+            </navigator>
+
+            <!--Second Item of List-->
+            <navigator url="../create_new_will/will_forms/photo_will/photo_will" class="weui-media-box weui-media-box_appmsg">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/photowill.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title">照片遗嘱</view>
+                    <view class="weui-media-box__desc">创建时间： 2019xx月xx日</view>
+                </view>
+            </navigator>
+
+            <!--Third Item of List -->
+            <navigator url="../create_new_will/will_forms/record_will/record_will" class="weui-media-box weui-media-box_appmsg">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/voicewill.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title">录音遗嘱</view>
+                    <view class="weui-media-box__desc">创建时间： 2019xx月xx日</view>
+                </view>
+            </navigator>
+
+            <!--Fourth Item of List-->
+            <navigator url="../create_new_will/will_forms/legal_record_will/legal_record_will" class="weui-media-box weui-media-box_appmsg">
+                <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                    <image class="weui-media-box__thumb" src="/src/images/certified_voicewill.svg" />
+                </view>
+                <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                    <view class="weui-media-box__title">规范录音遗嘱</view>
+                    <view class="weui-media-box__desc">创建时间： 2019xx月xx日</view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
+</view>
+
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>

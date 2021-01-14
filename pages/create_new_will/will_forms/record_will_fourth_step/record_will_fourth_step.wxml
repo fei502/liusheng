@@ -4,29 +4,6 @@
 
 <view id="roundSquareCard"> 
   <form bindsubmit="onSubmitForm">
-
-  <!--内容-->
-  <view style='padding-top:50rpx'>
-    <view class='titleText'>撰写草稿</view>
-    <view class='mainText' id='cont'>草稿帮助您在稍后有条理地口述，内容需要包括：财产分配；账号处理；留给大家的话；愿望；日期（年月日）。您可以略过草稿，直接开始录音。</view>
-    <textarea id='longText' name='willtxt'></textarea>
-    <view id='buttonLn'>
-       <button id='noButt' bindtap='noButt' class='flex-item butt'>预览</button>
-    </view>
-  </view>
-
-  <view style='padding-top:50rpx'>
-    <view class='titleText'>开始录制</view>
-    <textarea id='longlongText' name='willtxt'></textarea>
-    <view class='inputBlock' style='padding-top: 4vh'>
-      <view class='weui-cell__hd mainText' style='padding-right:10px'>签<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>名</view>
-      <input type='text' name='realname' class='weui-input inputCell' style='width:73%; height:10vh;'></input>
-    </view>
-    <view id='buttonLn'>
-       <button id='noButt' bindtap='noButt' class='flex-item butt'>下一步</button>
-    </view>
-  </view>
-
   <!--见证人-->
   <view style='padding-top:50px'>
     <view class='titleText'>生后联系人</view>
@@ -50,9 +27,9 @@
   </view>
 
   <!--提交-->
-  <view id='buttonLn' style='padding-bottom: 8vh;'>
-    <button class="submitbutt" type="default" formType="submit">提交</button>
-   </view>
+  <view id='buttonLn'>
+    <button class='flex-item submitbutt' bindtap='nextButt' formType="submit">提交</button>
+  </view>
   </form>
 
 </view>

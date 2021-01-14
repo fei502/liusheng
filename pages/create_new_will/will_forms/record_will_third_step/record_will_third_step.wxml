@@ -1,0 +1,33 @@
+<!--pages/create_new_will/will_forms/record_will/record_will.wxml-->
+<!--pages/create_new_will/will_forms/legal_record_will/legal_record_will.wxml-->
+<view class='topSquare'> 录音遗嘱 </view>
+
+<view id="roundSquareCard"> 
+  <form bindsubmit="onSubmitForm">
+  <view style='padding-top:50rpx'>
+    <view class='titleText'>开始录制</view>
+    <view id='buttonLnn'>
+       <button id='recordButt' bindtap='recordButt' class='flex-item recordButt'>点击开始录制</button>
+    </view>
+    <textarea id='longlongText' name='willtxt'></textarea>
+    <view class='inputBlock' style='padding-top: 4vh'>
+      <view class='weui-cell__hd mainText' style='padding-right:10px'>签<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>名</view>
+      <input type='text' name='realname' class='weui-input inputCell' style='width:73%; height:10vh;'></input>
+    </view>
+    <view id='buttonLn'>
+       <button id='nextButt' bindtap='nextButt' class='flex-item butt'>下一步</button>
+    </view>
+  </view>
+  </form>
+
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>
+

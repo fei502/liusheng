@@ -1,0 +1,30 @@
+<!--pages/create_new_will/will_forms/record_will/record_will.wxml-->
+<!--pages/create_new_will/will_forms/legal_record_will/legal_record_will.wxml-->
+<view class='topSquare'> 录音遗嘱 </view>
+
+<view id="roundSquareCard"> 
+  <form bindsubmit="onSubmitForm">
+
+  <!--内容-->
+  <view style='padding-top:50rpx'>
+    <view class='titleText'>撰写草稿</view>
+    <view class='mainText' id='cont'>草稿帮助您在稍后有条理地口述，内容需要包括：财产分配；账号处理；留给大家的话；愿望；日期（年月日）。</view>
+    <view class='mainText' id='cont'> 我们不建议您跳过草稿。</view>
+    <textarea id='longText' name='willtxt'></textarea>
+    <view id='buttonLn'>
+       <button id='nextButt' bindtap='nextButt' class='flex-item butt'>下一步</button>
+    </view>
+  </view>
+  </form>
+
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>
+

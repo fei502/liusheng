@@ -10,7 +10,7 @@ Page({
 
   tap: function () {
     wx.redirectTo({
-      url: '../../will_forms/record_will/record_will',
+      url: '../../will_forms/record_will_first_step/record_will_first_step',
     })
   },
 

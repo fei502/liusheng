@@ -65,7 +65,7 @@ Page({
     // initializing constant for db
     const db = wx.cloud.database()
     console.log(db)
-    const photo_will_by_user = db.collection('photo_will_by_user')
+    const photo_will_by_user = db.collection('photo_wills')
 
     console.log(app)
     photo_will_by_user.add({

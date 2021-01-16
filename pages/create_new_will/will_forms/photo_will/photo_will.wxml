@@ -1,0 +1,64 @@
+<!--pages/will_forms/photo_will/photo_will.wxml-->
+
+<view class='topSquare'> 照片遗嘱 </view>
+
+<view id="roundSquareCard"> 
+  <form bindsubmit="onSubmitForm">
+
+  <!--内容-->
+  <view style='padding-top:50rpx'>
+    <view class='titleText'>上传遗嘱照片</view>
+    <view class='cont'>请确保纸质遗嘱上有您的亲笔签名和手写年月日，且照片上所有文字清晰可见。如果由人代书，请确保有代书人和额外至少一位见证人的亲笔签名和手写年月日。</view>
+    <!-- <textarea id='longText'></textarea> -->
+    <!-- <button 
+      type = "default" size = "mini" bindtap = "chooseImage"
+      wx: if = "{{images.length < 3}}"
+    >添加图片</button> -->
+
+    <view class="container">
+      <view class="buttonLn">
+        <button bindtap="upload"> 上传图片 </button>
+      </view>
+      <block wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+        <image src="{{item }}" name='image' bindtap="listenerButtonPreviewImage" data-index="{{index}}" style="width: 100%;"/>
+      </block>
+    </view>
+  </view>
+
+  <!--见证人-->
+  <view style='padding-top:50px'>
+    <view class='titleText'>生后联系人</view>
+    <view class='inputBlock'>
+      <view class='weui-cell__hd mainText' style='padding-right:10px'>真实姓名</view>
+      <input type='text' name='realname' class='weui-input inputCell'></input>
+    </view>
+    <view class='inputBlock'>
+      <view class='weui-cell__hd mainText' style='padding-right:10px'>身份证号</view>
+      <input type='idcard' name='idnum'class='weui-input inputCell'></input>
+    </view>
+    <!--to do 获取验证码-->
+    <view class='inputBlock'>
+      <view  class='weui-cell__hd mainText' style='padding-right:10px'>联系电话</view>
+      <input type='tel' name='telnum' class='weui-input inputCell'> </input>
+    </view>
+    <view class='inputBlock'>
+      <view  class='weui-cell__hd mainText' style='padding-right:10px'>签<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>名</view>
+      <input type='text' name='realname' class='weui-input inputCell'></input>
+    </view>
+  </view>
+  <!--提交-->
+  <button class="submitbutt" type="default" formType="submit">提交</button>
+
+  </form>
+
+  <!-- <button type="default" bindtap='saveFormTodb'>test</button> -->
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/about_us/about_us.wxml-->
+
+<view id="roundSquareCard"> 
+    <view class='titleText' id='title' style='float: left; margin:auto'>您的遗嘱保存在哪儿</view>
+    <view class='titleText' id='title' style='float: right' bindtap='click'> X </view>
+    <text>\n\n</text>
+    <view class='mainText' id='cont' style='padding-top:0;'>我们在腾讯云购买了云储存空间，也会不定期地将云端数据备份在我们的本地磁盘上，磁盘平时不联网。您无需担忧您的信息安全。</view>
+    <view class='titleText' id='title'>这样的遗嘱有法律效力吗</view>
+    <view class='mainText' id='cont'>受现行《继承法》限制，除“规范录音遗嘱”完全符合要件要求，其他任何数字格式的遗嘱都不具有完全的法律效力，可能引起争议。如果您非常重视遗嘱的合法性和执行力，我们推荐您优先采用效力最好的公证遗嘱。</view>
+    <view class='titleText' id='title'>我们是谁</view>
+    <view class='mainText' id='cont'>我们是来自深圳的三位闲人，瓜二、Lisa和狒狒</view>
+    <view class='titleText' id='title'>我们为什么创建留声</view>
+    <view class='mainText' id='cont'>2019年5月，我的一位朋友因结肠癌走得突然，才24岁，没能留下多少话。伤感之余，我也想为自己的离开做一些准备，只是提笔才发现有那么多难以编织的留恋。因此，我和Lisa决定做这样一个程序，帮助每一个人铭记、放下、憧憬、和坦白、私密、恰当地减少最后一刻的遗憾。Lisa完成了前端的大部分框架工作，稍后狒狒接手并完成了全部工作。</view>
+    <view class='titleText' id='title'>留声会运营多久</view>
+    <view class='mainText' id='cont'>我们并非以营利目的运营此项目，因此除非我们团队面临严重的经济困难，否则我们会坚持永久运营下去。</view>
+    <view class='titleText' id='title'>联系我们</view>
+    <view class='mainText' id='cont'>您可以通过以下邮箱找到我们：will@sapact.com欢迎您帮助我们补充地区性法律，包括适用于少数民族或在华外籍人员的特别继承法，或协助我们制作其他国家和地区版本。</view>
+ 
+</view>
+
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom" style='background-color:#7B8DA3; color:#fff ! important'>
+    <view class="weui-footer__links" style='color: white ! important'>
+        <navigator url="../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>

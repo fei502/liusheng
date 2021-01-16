@@ -1,17 +1,24 @@
 {
-	"miniprogramRoot": "miniprogram/",
-	"cloudfunctionRoot": "cloudfunctions/",
+	"description": "Project configuration file",
+	"packOptions": {
+		"ignore": []
+	},
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"enhance": true
+		"autoAudits": false
 	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.4",
 	"appid": "wx19641280bc91bce4",
-	"projectname": "liusheng",
-	"libVersion": "2.14.1",
+	"projectname": "miniprogram-test-1",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -28,15 +35,60 @@
 			"list": []
 		},
 		"game": {
+			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 6,
 			"list": [
 				{
+					"id": 1,
+					"name": "test_confirmation",
+					"pathName": "pages/create_new_will/confirmation/confirmation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "text_all_choices",
+					"pathName": "pages/create_new_will/all_choices/all_choices",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "test_photo_will",
+					"pathName": "pages/create_new_will/will_forms/photo_will/photo_will",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"name": "test_QA",
+					"pathName": "pages/create_new_will/QA/QA",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test_text_will",
+					"pathName": "pages/create_new_will/will_forms/text_will/text_will",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "test_will_form",
+					"pathName": "pages/create_new_will/will_form/will_form",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test_guide",
+					"pathName": "pages/guide/guide",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

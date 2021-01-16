@@ -1,0 +1,37 @@
+<!--pages/guide/guide.wxml-->
+
+<view class='topSquare'> 指导手册 </view>
+<view id="roundSquareCard">
+  <text class='mainText'>本指导手册仅适用于中国（大陆），您也可以直接跟随留声的“规范录音遗嘱”流程，创建合法可执行的遗嘱。<text>\n</text>如果您无需创建严谨合法的遗嘱，我们建议您不必阅读手册，放松地开始写作。<text>\n\n\n</text></text>
+  
+
+
+  <navigator url="../create_new_will/will_form/legal_record_will/legal_record_will" class="weui-media-box weui-media-box_appmsg card">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="../../src/images/certified_voicewill.svg" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title" style='font-size: 2vh;'>使用留声，创建规范录音遗嘱</view>
+      <view class="weui-media-box__desc" style='font-size: 1.5vh;'>与至少两位见证人共同录制一份合法的录音遗嘱</view>
+    </view>
+  </navigator>
+
+  <view class="page__bd page__bd_spacing pannel mainText">
+    <view wx:for="{{list}}">
+      <!--insert an arrow sign-->
+      <view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}" bindtap="kindToggle">{{item.Q}} </view>
+      <view class="kind-list__item-bd {{item.open ? 'kind-list__item-bd_show' : ''}}">
+        <view class="weui-cells {{item.open ? 'weui-cells_show' : ''}}">{{item.A}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>

@@ -1,0 +1,32 @@
+<!--pages/create_new_will/will_forms/record_will/record_will.wxml-->
+<!--pages/create_new_will/will_forms/legal_record_will/legal_record_will.wxml-->
+<view class='topSquare'> 录音遗嘱 </view>
+
+<view id="roundSquareCard"> 
+  <form bindsubmit="onSubmitForm">
+
+  <!--内容-->
+  <view style='padding-top:50rpx'>
+    <view class='titleText'>您的遗嘱已保存</view>
+    <view class='mainText' id='cont'>您可以通过留声修改或删除已创建的遗嘱。</view>
+    <view class='mainText' id='cont'>除您本人以外，其他人无法通过任何方式查看和修改您的遗嘱，包括留声的工作人员。</view>
+    <textarea id='longText' name='willtxt'></textarea>
+    <view id='buttonLn'>
+       <button id='noButt' bindtap='noButt' class='flex-item butt'>预览</button>
+    </view>
+  </view>
+
+  
+  </form>
+
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>
+

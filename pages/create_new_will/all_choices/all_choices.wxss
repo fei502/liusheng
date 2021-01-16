@@ -1,0 +1,11 @@
+/* pages/create_new_will/all_choices/all_choices.wxss */
+page{
+  background-color: #7B8DA3
+}
+
+#roundSquareCard {
+  border-radius: 25px 25px 0px 0px;
+  background: #FDFAF5;
+  height: 86vh; 
+  padding: 3vh;
+}

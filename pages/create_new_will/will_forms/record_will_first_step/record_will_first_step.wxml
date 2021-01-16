@@ -1,0 +1,47 @@
+<!--pages/create_new_will/will_forms/record_will/record_will.wxml-->
+<!--pages/create_new_will/will_forms/legal_record_will/legal_record_will.wxml-->
+<view class='topSquare'> 录音遗嘱 </view>
+
+<view id="roundSquareCard"> 
+  <form bindsubmit="onSubmitForm">
+
+    <!--个人信息-->
+    <view>
+      <view class='titleText'>立嘱人身份信息</view>
+      <view class='inputBlock'>
+        <view class='weui-cell__hd mainText' style='padding-right:10px'>真实姓名</view>
+        <input type='text' name='realname' class='weui-input inputCell'></input>
+      </view>
+      <view class='inputBlock'>
+        <view class='weui-cell__hd mainText' style='padding-right:10px'>证件类型</view>
+        <!--需要改-->
+        <input type='idcard' name='idnum'class='weui-input inputCell'></input>
+      </view>
+      <view class='inputBlock'>
+        <view class='weui-cell__hd mainText' style='padding-right:10px'>身份证号</view>
+        <input type='idcard' name='idnum'class='weui-input inputCell'></input>
+      </view>
+      <!--to do 获取验证码-->
+      <view class='inputBlock'>
+        <view  class='weui-cell__hd mainText' style='padding-right:10px'>联系电话</view>
+        <input type='tel' name='telnum' class='weui-input inputCell'> </input>
+      </view>
+    </view>
+
+  <!--提交-->
+  <view id='buttonLn'>
+    <button id='nextButt'bindtap='nextButt' class='flex-item butt' >下一步</button>
+  </view>
+  </form>
+
+</view>
+
+<!--footer-->
+<view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links" style='color:#7B8DA3 ! important'>
+        <navigator url="../../../footer/donation/donation" class="weui-footer__link">捐赠</navigator>
+        <navigator url="../../../footer/about_us/about_us" class="weui-footer__link">关于我们</navigator>
+        <navigator url="../../../footer/change_country/change_country" class="weui-footer__link">切换地区</navigator>
+    </view>
+</view>
+
